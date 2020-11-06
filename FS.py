@@ -474,8 +474,8 @@ def action():
 
 
 \033[1;96mThanks me later
-\033[1;95mFb\033[1;97mSOmi
-\033[1;95myoutube\033[1;97mhttps://www.youtube.com/channel/UCs3FOuvp53p1VJ9If-fo5Ww"""
+\033[1
+\033[1;
 
     
     raw_input("\n\033[1;92m[\033[1;92mBack\033[1;95m]")
