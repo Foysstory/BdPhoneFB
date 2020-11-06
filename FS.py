@@ -2,11 +2,21 @@
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(10000):
+for n in range(100000):
 
-    nmbr = random.randint(1111111, 9999999)
+    nmbr = random.randint(11111, 99999)
     
     sys.stdout = open('.txt', 'a')
+
+    print(nmbr)
+
+    sys.stdout.flush()
+
+for n1 in range (100):
+	
+	nmbr = random.randint (111, 999)
+	
+	sys.stdout = open('.txt', 'a')
 
     print(nmbr)
 
@@ -64,7 +74,7 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(00000.1)
+		time.sleep(00000.001)
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -114,7 +124,7 @@ print  """
 
 \033[1;92m---------------------BRAND---------------------
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
-\033[1;96mThe Credit For This Code Goes To ASIM..
+\033[1;96mThe Credit For This Code Goes To FoyShal..
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;91mDEVOLPER
                      FS FOYSHAL
@@ -128,7 +138,7 @@ print  """
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;96mCloning I,ds Open 1&2 week..
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••                
-\033[1;92m--------------------CH----------------------
+\033[1;92m--------------------FS----------------------
 """
 
 ####Logo####
@@ -290,7 +300,7 @@ def action():
         action()
     print 50* '\033[1;94m-'
     xxx = str(len(id))
-    jalan ('\033[1;91m Total ids number: '+xxx)
+    jalan ('\033[1;91m Total ids number: '+xxxx)
     jalan ('\033[1;92mCode you choose: '+c)
     jalan ("\033[1;93mWait A While Start Cracking...")
     jalan ("\033[1;94mTo Stop Process Press Ctrl+z")
@@ -471,6 +481,9 @@ def action():
 ──────────────────────▀▀▀████
 ──────────────────────▄█████▀
 
+
+
+\033[1;96mThanks me later
 
     
     raw_input("\n\033[1;92m[\033[1;92mBack\033[1;95m]")
